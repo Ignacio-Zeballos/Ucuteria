@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, footer{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#div1{
+    justify-content: left;
+    align-items: center;
+}
+#div2{
+    display: flex;
+    align-items: center;
+}
+#div3{
+    display: flex;
+    justify-content: right;
+}
+#logo{
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    padding: 1rem;
+    }
+#carrito, #oscuro{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#oscuro{
+    font-size: 35px;
+}
+#busqueda{
+    padding: 0.6rem 1rem;
+    border: 2px solid var(--color-secundario);
+    border-radius: 8px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#controles{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
